@@ -1,0 +1,11 @@
+@use "colors";
+
+header {
+    position: relative;
+    background-color: colors.$cream;
+}
+.logo {
+    margin: 10px;
+    max-width: 200px;
+    height: auto;
+}

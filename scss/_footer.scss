@@ -1,0 +1,9 @@
+@use "colors";
+
+.footer {
+color: colors.$cream;
+background-color: colors.$coffee;
+padding: 20px;
+text-align: center;
+font-size: 10px;
+}

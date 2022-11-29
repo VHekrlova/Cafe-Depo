@@ -1,0 +1,23 @@
+.aboutus__image {
+    width: 100%;
+}
+
+
+@media screen and (min-width: "550px") {
+    .aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutus__text {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+
+    .aboutus__image {
+        width: 100px;
+        padding: 10px;
+        flex-basis: 50%;
+    }
+}

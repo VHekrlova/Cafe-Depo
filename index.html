@@ -1,58 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
     <title>Cafe Depo</title>
-</head>
-<body>
-<nav>
-    <ul>
-        <li>Úvod</li>
-        <li>Nabídka</li>
-        <li>Galerie</li>
-        <li>Kontakt</li>
-    </ul>
-</nav>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo" />
+        <div class="hamburger active">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="menu active">
+            <ul>
+                <li class="menu__link">Úvod</li>
+                <li class="menu__link">Nabídka</li>
+                <li class="menu__link">Galerie</li>
+                <li class="menu__link">Kontakt</li>
+            </ul>
+        </div> 
+      </nav>
+    </header>
 
-<h1> ...Vaše domovská stanice</h1>
-
-<section class="abotuus">
-    <h1>O nás</h1>
-    <p>Denně u nás najdete čerstvou nabídku domácích dortů a chlebíčků. Jsme útočistěm pro všechny milovnkíky kávy, kteří čekají na zpožděný vlak</p>
+<section>
+    <div class="hero">
+      <img class="hero__image" src="images/carousel/carousel1.jpg" alt="hero">
+    </div>
+    <h1 class="motto">...Vaše domovská stanice</h1>
 </section>
+   
 
-<section class="gallery">
-    <h2>Galerie</h2>
-    <div class="box">
-        <img src="" alt="">
-    </div>
-</section>
+    <!-- O NÁS -->
+    <section class="section">
+      <div class="title"><h2>O nás</h2></div>
+      <div class="aboutus">
+        <p class="aboutus__text text">
+          Denně u nás najdete čerstvou nabídku domácích dortů a chlebíčků. Jsme
+          útočistěm pro všechny milovnkíky kávy, kteří čekají na zpožděný vlak
+        </p>
+        <img class="aboutus__image" src="images/majitelka.jpg" alt="majitelka"/>
+      </div>
+    </section>
 
-<section class="contact">
-    <h2>Navšitve nás</h2>
-    <div class="one">
-        <h3>Rezervace na čísle</h3>
-        <p>+420 722 005 719</p>
+    <!-- GALERIE -->
+    <section class="section section--dark">
+      <div class="title"><h2>Galerie</h2></div>
 
-        <h3>Otevírací doba</h3>
-        <p>Po–Pá 9:00–18:00</p>
+      <div class="gallery">
+        <a class="gallery__item" href="#"><img class="gallery__image" src="images/kavarna/k-kavarna.jpg" alt="kavárna"/></a>
+        <a class="gallery__item" href="#"><img class="gallery__image" src="images/zakusky/z-zakusky.jpg" alt="zákusky"/></a>
+        <a class="gallery__item" href="#"><img class="gallery__image" src="images/chlebicky/ch-chlebicky.jpg" alt="chlebíčky"/></a>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section">
+
+      <div class="title"><h2>Navšivte nás</h2></div>
+
+      <div class="contact">
+      <div class="contact__maininfo">
+        <h3 class="contact__title">Rezervace na čísle</h3>
+        <p class="contact__text text">+420 722 005 719</p>
+
+        <h3 class="contact__title">Otevírací doba</h3>
+        <p class="contact__text text">Po–Pá 9:00–18:00</p>
+      </div>
+      <div class="contact__map">
+        <img class="contact__image" src="images/map.png" alt="mapa" />
+      </div>
+      <div class="contact__adress">
+        <h3 class="contact__title">Adresa</h3>
+        <p class="contact__text text">
+          Nádražní 395<br />
+          560 02<br />
+          Česká Třebová
+        </p>
+      </div>
     </div>
-    <div class="two">
-        <img src="map.png" alt="">
-    
-    </div>
-    <div class="three">
-        <h3>Adresa</h3>
-        <p>Nádražní 395<br>
-            560 02<br> 
-            Česká Třebová</p>
-    </div>
-</section>
-    
-<footer>
-    <p>COPYRIGHT © 2022 | CAFÉ DEPO</p>
-</footer>
-</body>
+    </section>
+
+    <footer class="footer">
+      <p>COPYRIGHT © 2022 | CAFÉ DEPO</p>
+    </footer>
+
+  <script src="script.js"></script>
+  </body>
 </html>
