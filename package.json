@@ -1,0 +1,24 @@
+{
+  "name": "projekt---eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve":"npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VHekrlova/Cafe-Depo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VHekrlova/Cafe-Depo/issues"
+  },
+  "homepage": "https://github.com/VHekrlova/Cafe-Depo#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
