@@ -20,7 +20,10 @@
 }
 
 .menu__link {
-    margin: 10px;
+    text-decoration: none;
+    color: colors.$cream;
+    display: inline-block;
+    padding: 10px;
 }
 
 .navbar .menu.active {

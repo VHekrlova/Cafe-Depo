@@ -1,39 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <title>Cafe Depo</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <img class="logo" src="images/logo.png" alt="logo" />
-        <div class="hamburger active">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <div class="menu active">
-            <ul>
-                <li class="menu__link">Úvod</li>
-                <li class="menu__link">Nabídka</li>
-                <li class="menu__link">Galerie</li>
-                <li class="menu__link">Kontakt</li>
-            </ul>
-        </div> 
-      </nav>
-    </header>
+---
+layout: template.njk
+title: Café Depo
+---
 
 <section>
     <div class="hero">
-      <img class="hero__image" src="images/carousel/carousel1.jpg" alt="hero">
+      <img class="hero__image" src="/images/carousel/carousel1.jpg" alt="hero">
     </div>
     <h1 class="motto">...Vaše domovská stanice</h1>
 </section>
@@ -65,7 +37,7 @@
     <!-- KONTAKT -->
     <section class="section">
 
-      <div class="title"><h2>Navšivte nás</h2></div>
+      <div class="title"><h2>Navštivte nás</h2></div>
 
       <div class="contact">
       <div class="contact__maininfo">
@@ -89,10 +61,4 @@
     </div>
     </section>
 
-    <footer class="footer">
-      <p>COPYRIGHT © 2022 | CAFÉ DEPO</p>
-    </footer>
 
-  <script src="scripts/script.js"></script>
-  </body>
-</html>

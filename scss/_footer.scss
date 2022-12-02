@@ -7,3 +7,18 @@ padding: 20px;
 text-align: center;
 font-size: 10px;
 }
+
+.icons {
+    text-align: center;
+}
+
+.icons ion-icon {
+    color: colors.$cream;
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.icons ion-icon:hover {
+    color: colors.$forest;
+}
