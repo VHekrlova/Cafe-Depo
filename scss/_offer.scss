@@ -1,0 +1,21 @@
+.offer {
+    width: 95%;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.offer__title {
+    margin-top: 15px;
+}
+
+.offer__item {
+    text-align: left;
+}
+
+@media screen and (min-width: "550px") {
+    .offer {
+        width: 80%;
+        font-size: 18px;
+    }
+}
