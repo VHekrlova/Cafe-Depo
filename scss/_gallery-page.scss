@@ -1,0 +1,20 @@
+.gallery-page {
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(1);
+}
+.gallery-page__image {
+    max-width: 100%;
+}
+
+@media screen and (min-width: "550px") {
+    .gallery-page {
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3, minmax(150px, 100%));
+    }
+    
+
+}
