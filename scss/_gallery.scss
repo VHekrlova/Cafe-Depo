@@ -4,11 +4,17 @@
 
 .gallery__item {
     display: block;
+    overflow: hidden;
     margin: 15px 0;
 }
 
 .gallery__image{
 width: 100%;
+}
+
+.gallery__image:hover {
+	transition: transform 0.5s;
+	transform: scale(1.15);
 }
 
 @media screen and (min-width: "550px") {

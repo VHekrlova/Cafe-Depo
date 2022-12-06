@@ -8,9 +8,10 @@ ul {
     padding: 0;
 }
 
+
 .section {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
     text-align: center;
     background-color: colors.$cream;
@@ -18,8 +19,7 @@ ul {
 
 .section--dark {
     background-color: colors.$coffee;
-    color: colors.$cream;
-    
+    color: #fff;  
 }
 
 .title {

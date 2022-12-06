@@ -2,10 +2,16 @@
 
 header {
     position: relative;
-    background-color: colors.$cream;
+    background-color: colors.$coffee;
 }
 .logo {
-    margin: 10px;
+    margin: 5px;
     max-width: 200px;
     height: auto;
+}
+
+@media screen and (min-width: "550px") {
+ header {
+    background-color: colors.$coffee;
+ }
 }

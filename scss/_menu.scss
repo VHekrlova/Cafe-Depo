@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.navbar .menu {
+.menu {
     width: 100%;
     text-align: center;
     position: absolute; 
@@ -21,7 +21,7 @@
 
 .menu__link {
     text-decoration: none;
-    color: colors.$cream;
+    color: #fff;
     display: inline-block;
     padding: 10px;
 }
@@ -50,4 +50,30 @@
 
 .hamburger .bar:not(:last-child) {
     margin-bottom: 5px;
+}
+
+
+@media screen and (min-width: "550px") {
+    .hamburger {
+       display: none;
+    }
+
+    .menu {
+        position: relative;
+        top: 0px;
+    }
+
+    .menu__list {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu__link {
+        padding: 25px 40px;
+    }
+
+    .menu__link:hover {
+        background-color: colors.$forest;
+        transition: 0.5s;
+    }
 }
