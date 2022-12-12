@@ -4,8 +4,19 @@
     gap: 10px;
     grid-template-columns: repeat(1);
 
+    &__link {
+        overflow: hidden;
+    }
+
     &__image {
         max-width: 100%;
+        transition: 0.5s;
+        
+
+        &:hover {
+            transform: scale(1.15);
+        }
+
     }
 }
 
