@@ -17,14 +17,21 @@
     font-size: 20px;
     color: colors.$cream;
     transition: transform 0.3s;
-}
 
-.menu__link {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 10px;
-}
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    &__item {
+        &--active {
+            background-color: colors.$forest;
+        }        
+    }
+    }
+
 
 .navbar .menu.active {
     transform: translateX(0);
@@ -44,8 +51,9 @@
     width: 25px;
     height: 2px;
     display: block;
-    background-color: black;
-    transition: transform 0.3s;
+    margin: 0 20px;
+    background-color: #fff;
+    transition: 0.3s;
 }
 
 .hamburger .bar:not(:last-child) {
@@ -61,19 +69,20 @@
     .menu {
         position: relative;
         top: 0px;
-    }
+        transform: translateX(0);
 
-    .menu__list {
-        display: flex;
-        justify-content: flex-end;
-    }
+        &__list {
+            display: flex;
+            justify-content: flex-end;
+        }
 
-    .menu__link {
-        padding: 25px 40px;
-    }
+        &__link {
+            padding: 25px 40px;
 
-    .menu__link:hover {
-        background-color: colors.$forest;
-        transition: 0.5s;
+            &:hover {
+                background-color: colors.$forest;
+                transition: 0.5s;
+            }
+        }
     }
 }

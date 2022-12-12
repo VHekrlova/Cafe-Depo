@@ -1,29 +1,29 @@
 .contact__image{
     width: 100%;
     margin: 10px 0;
-    }
+    transition: 0.5s;
 
-.contact__image:hover {
-        transition: transform 0.5s;
+    &:hover {
         transform: scale(1.15);
-    }    
+    }
+    }
 
     @media screen and (min-width: "550px") {
         .contact {
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        .contact__maininfo {
-            flex-basis: 30%;
-        }
 
-        .contact__map {
-            flex-basis: 40%;
-        }
+            &__maininfo {
+                flex-basis: 30%;
+            }
 
-        .contact__adress {
-            flex-basis: 30%;
+            &__map {
+                flex-basis: 40%;
+            }
+
+            &__adress {
+                flex-basis: 30%;
+            }
         }
-    
     }

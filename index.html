@@ -3,62 +3,16 @@ layout: template.njk
 title: Café Depo
 ---
 
-<section>
-    <div class="hero">
-      <img class="hero__image" src="/images/carousel/hero.jpg" alt="hero">
-    </div>
-    <!--<h1 class="motto">...Vaše domovská stanice</h1>-->
-</section>
-   
+<!-- HERO -->
+{% include 'partials/hero.njk' %}
 
-    <!-- O NÁS -->
-    <section class="section">
-      <div class="title"><h2>O nás</h2></div>
-      <div class="aboutus">
-        <p class="aboutus__text text">
-          Denně u nás najdete čerstvou nabídku domácích dortů a chlebíčků. Jsme
-          útočistěm pro všechny milovnkíky kávy, kteří čekají na zpožděný vlak
-        </p>
-        <img class="aboutus__image" src="images/majitelka.jpg" alt="majitelka"/>
-      </div>
-    </section>
+<!-- O NÁS -->
+{% include 'partials/aboutus.njk' %}
 
-    <!-- GALERIE -->
-    <section class="section section--dark">
-      <div class="title"><h2>Galerie</h2></div>
+<!-- GALERIE -->
+<div class="section section--dark">
+  {% include 'partials/gallery.njk' %}
+</div>
 
-      <div class="gallery">
-        <a class="gallery__item" href="/galerie/kavarna/"><img class="gallery__image" src="images/kavarna/k-kavarna.jpg" alt="kavárna"/></a>
-        <a class="gallery__item" href="/galerie/zakusky/"><img class="gallery__image" src="images/zakusky/z-zakusky.jpg" alt="zákusky"/></a>
-        <a class="gallery__item" href="/galerie/chlebicky/"><img class="gallery__image" src="images/chlebicky/ch-chlebicky.jpg" alt="chlebíčky"/></a>
-      </div>
-    </section>
-
-    <!-- KONTAKT -->
-    <section class="section">
-
-      <div class="title"><h2>Navštivte nás</h2></div>
-
-      <div class="contact">
-      <div class="contact__maininfo">
-        <h3 class="contact__title">Rezervace na čísle</h3>
-        <p class="contact__text text">+420 722 005 719</p>
-
-        <h3 class="contact__title">Otevírací doba</h3>
-        <p class="contact__text text">Po–Pá 9:00–18:00</p>
-      </div>
-      <div class="contact__map">
-        <a href="https://www.google.com/maps/place/CAF%C3%89+DEPO/@49.8987494,16.4456403,15z/data=!4m5!3m4!1s0x0:0x435b7152093d31f2!8m2!3d49.898746!4d16.4456517" target="_blank"><img class="contact__image" src="images/map.png" alt="mapa" /></a>
-      </div>
-      <div class="contact__adress">
-        <h3 class="contact__title">Adresa</h3>
-        <p class="contact__text text">
-          Nádražní 395<br />
-          560 02<br />
-          Česká Třebová
-        </p>
-      </div>
-    </div>
-    </section>
-
-
+<!-- KONTAKT -->
+{% include 'partials/contact.njk' %}
