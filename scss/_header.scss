@@ -8,6 +8,11 @@ header {
     margin: 5px;
     max-width: 200px;
     height: auto;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (min-width: "550px") {
