@@ -1,12 +1,14 @@
-.contact__image{
+.contact {
+    &__image {
     width: 100%;
     margin: 10px 0;
     transition: 0.5s;
 
-    &:hover {
+        &:hover {
         transform: scale(1.1);
     }
     }
+}
 
     @media screen and (min-width: "750px") {
         .contact {

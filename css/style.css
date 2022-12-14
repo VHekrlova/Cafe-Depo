@@ -215,9 +215,6 @@ header {
   position: relative;
   overflow: hidden;
 }
-.gallery__item:hover .gallery__image {
-  transform: scale(110%);
-}
 .gallery__image {
   width: 100%;
   display: block;
@@ -241,6 +238,9 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+  }
+  .gallery__item:hover .gallery__image {
+    transform: scale(110%);
   }
 }
 .contact__image {
