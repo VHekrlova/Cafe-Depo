@@ -18,7 +18,7 @@
     "url": "https://github.com/VHekrlova/Cafe-Depo/issues"
   },
   "homepage": "https://github.com/VHekrlova/Cafe-Depo#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.3.3"
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
   }
 }
