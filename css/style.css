@@ -90,19 +90,6 @@ header {
     background-color: #68493b;
   }
 }
-.embla {
-  overflow: hidden;
-}
-
-.embla__container {
-  display: flex;
-}
-
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -321,10 +308,17 @@ header {
   text-align: left;
 }
 
+.section--offer {
+  padding: 30px 15px;
+}
+
 @media screen and (min-width: 550px) {
   .offer {
     width: 75%;
     font-size: 18px;
+  }
+  .section--offer {
+    padding: 30px;
   }
 }
 .gallery-page {

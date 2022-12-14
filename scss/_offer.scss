@@ -9,9 +9,17 @@
     }
 }
 
+.section--offer {
+    padding: 30px 15px;
+}
+
 @media screen and (min-width: "550px") {
     .offer {
         width: 75%;
         font-size: 18px;
+    }
+
+    .section--offer {
+        padding: 30px;
     }
 }
