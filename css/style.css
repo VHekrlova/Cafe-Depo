@@ -303,6 +303,10 @@ header {
   color: white;
 }
 
+.actuality__image {
+  width: 50%;
+}
+
 .offer {
   width: 100%;
   text-align: right;
