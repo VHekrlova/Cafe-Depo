@@ -157,7 +157,7 @@ header {
   margin-bottom: 5px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .hamburger {
     display: none;
   }
